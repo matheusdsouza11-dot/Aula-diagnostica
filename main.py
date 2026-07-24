@@ -25,3 +25,7 @@ import random
 letras = "abcdefghijklmnopqrstuvwxyz1234567890!@#"
 senha = "".join(random.choices(letras, k=8))
 print("Sua nova senha segura é:", senha)
+
+
+preco = float(input("Digite o preço do produto (R$): "))
+print("Preço com 15% de desconto: R$", preco * 0.85)

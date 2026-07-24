@@ -35,3 +35,9 @@ import random
 
 numeros = random.sample(range(1, 61), 6)
 print("Seus números da sorte são:", sorted(numeros))
+
+
+from datetime import datetime
+
+agora = datetime.now()
+print("Data e hora atual:", agora.strftime("%d/%m/%Y %H:%M:%S"))

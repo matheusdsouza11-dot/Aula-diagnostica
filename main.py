@@ -41,3 +41,7 @@ from datetime import datetime
 
 agora = datetime.now()
 print("Data e hora atual:", agora.strftime("%d/%m/%Y %H:%M:%S"))
+
+reais = float(input("Digite o valor em Reais (R$): "))
+# Simulação com o dólar médio a R$ 5,50
+print(f"O valor convertido é: $ {reais / 5.50:.2f}")

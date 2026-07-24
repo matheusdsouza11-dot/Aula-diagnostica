@@ -29,3 +29,9 @@ print("Sua nova senha segura é:", senha)
 
 preco = float(input("Digite o preço do produto (R$): "))
 print("Preço com 15% de desconto: R$", preco * 0.85)
+
+
+import random
+
+numeros = random.sample(range(1, 61), 6)
+print("Seus números da sorte são:", sorted(numeros))

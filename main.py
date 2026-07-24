@@ -18,3 +18,10 @@ print(f"Você {'acertou' if palpite == numero_secreto else 'errou'}. O número e
 
 idade = int(input("Digite sua idade: "))
 print("Você nasceu em:", 2026 - idade)
+
+
+import random
+
+letras = "abcdefghijklmnopqrstuvwxyz1234567890!@#"
+senha = "".join(random.choices(letras, k=8))
+print("Sua nova senha segura é:", senha)
